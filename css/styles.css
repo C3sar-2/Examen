@@ -1,7 +1,31 @@
-head{
+body{
     margin: 0;
-    height: 10px;
-    background-color: beige;
+}
+.head{
+    margin: 0;
+    height: 20px;
+    background-color: rgb(111, 111, 7);
     width: 100%;
     padding: 1%;
+    text-align: center;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.menu{
+    display: block;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+footer{
+    height: 6em;
+    background-color: aqua;
+    text-align: center;
+    line-height: 10px;
 }
