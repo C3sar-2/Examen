@@ -12,6 +12,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 }
+
 .menu{
     display: block;
     position: relative;
@@ -36,7 +37,7 @@ li a{
     display: inline;
     text-decoration: none;
     float: left;
-    margin: 0;
+    margin: 1%;
     color: #fff;
 }
 
@@ -55,8 +56,25 @@ li a{
     background-color: bisque;
     margin-bottom: 1%;
 }
-
-
+.cuadrado{
+    height: 150px;
+    width: 150px;
+    margin: 10px auto;
+    background-color: aqua;
+    align-items: center;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.cuadrado:hover{
+    transform: translateX(-250px);
+}
+.img{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.img:hover{
+    transform: perspective(24deg)rotate(130deg);
+}
 
 footer{
     height: 6em;
