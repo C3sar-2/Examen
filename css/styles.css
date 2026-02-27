@@ -110,6 +110,14 @@ li a{
 .img:hover{
     transform: perspective(24deg)rotate(130deg);
 }
+.formulario{
+    margin: 10% auto;
+    background-color: rgb(51, 193, 84);
+    height: 250px;
+    width: 350px;
+    border-color: black;
+    border-radius: 2%;
+}
 
 footer{
     height: 6em;
