@@ -12,7 +12,10 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
 }
-
+.menu_d{
+    width: 100%;
+    position: relative;
+}
 .menu{
     display: block;
     position: relative;
@@ -22,11 +25,43 @@ body{
     overflow: hidden;
     background-color: rgb(0, 0, 0);
     color: #fff;
-    height: 90px;
+    height: 50px;
     text-align: center;
     float: left;
 }
-
+.articulo{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.articulo:hover{
+    background-color: rgb(93, 93, 94);
+    color: black;
+    font-size: larger;
+}
+.informacion{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.informacion:hover{
+    background-color: rgb(15, 107, 107);
+    scale: calc(0.5);
+}
+.imagen{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.imagen:hover{
+    background-color: blueviolet;
+    color: aqua;
+}
+.footer{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.footer:hover{
+    background-color: rgb(128, 74, 210);
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 ul{
     list-style-type: none;
